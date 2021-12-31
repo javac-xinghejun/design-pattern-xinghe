@@ -7,7 +7,7 @@ package org.xinghe.dp.decorator;
  * @see [相关类/方法]
  * @since [版本号]
  */
-public class NightWalkingDecorator extends AbstractDressDecorator{
+public class NightWalkingDecorator extends AbstractDressDecorator {
 
     public NightWalkingDecorator(IDress baiZhantang) {
         super(baiZhantang);
@@ -19,5 +19,10 @@ public class NightWalkingDecorator extends AbstractDressDecorator{
     @Override
     public void getDressed() {
         super.getDressed();
+        steal();
+    }
+
+    private void steal() {
+        System.out.println("盗圣重出江湖啦！");
     }
 }

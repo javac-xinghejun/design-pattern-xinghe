@@ -19,5 +19,10 @@ public class BukuaiDecorator extends AbstractDressDecorator{
     @Override
     public void getDressed() {
         super.getDressed();
+        doPlanKoudan();
+    }
+
+    private void doPlanKoudan(){
+        System.out.println("现在开始执行口淡行动！因为口淡，所以找盐。");
     }
 }
