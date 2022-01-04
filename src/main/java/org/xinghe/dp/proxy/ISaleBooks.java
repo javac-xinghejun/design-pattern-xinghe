@@ -9,10 +9,11 @@ package org.xinghe.dp.proxy;
  */
 public interface ISaleBooks {
 
+
     /**
-     * 出版书
+     * 谈判出版图书
      */
-    void publishBooks();
+    void negotiatePublishingBooks();
 
     /**
      * 签署合同

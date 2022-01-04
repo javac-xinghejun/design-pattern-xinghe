@@ -10,12 +10,11 @@ package org.xinghe.dp.proxy;
 public class FanDaniang {
 
     public static void main(String[] args) {
-        ISaleBooks lvQinghz = new LvQinghou();
-        ISaleBooks guoFurong = new GuoFurong(lvQinghz);
+        ISaleBooks lvQinghou = new LvQinghou();
+        ISaleBooks guoFurong = new GuoFurong(lvQinghou);
         System.out.println("范大娘来谈出书……");
-        guoFurong.publishBooks();
+        guoFurong.negotiatePublishingBooks();
         System.out.println("范大娘来谈合同……");
         guoFurong.signContract();
-
     }
 }

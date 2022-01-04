@@ -13,7 +13,7 @@ public class LvQinghou implements ISaleBooks{
      * 出版书
      */
     @Override
-    public void publishBooks() {
+    public void negotiatePublishingBooks() {
         System.out.println("我是吕轻侯，我要出书！");
     }
 

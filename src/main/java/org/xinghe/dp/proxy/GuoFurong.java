@@ -19,10 +19,10 @@ public class GuoFurong implements ISaleBooks {
      * 出版书
      */
     @Override
-    public void publishBooks() {
+    public void negotiatePublishingBooks() {
         proofreadTheManuscript();
         System.out.println("我是郭芙蓉，我帮吕轻侯洽谈出书事宜！");
-        iSaleBooks.publishBooks();
+        iSaleBooks.negotiatePublishingBooks();
     }
 
     /**
