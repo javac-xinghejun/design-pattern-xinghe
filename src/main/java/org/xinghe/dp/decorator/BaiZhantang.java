@@ -7,7 +7,7 @@ package org.xinghe.dp.decorator;
  * @see [相关类/方法]
  * @since [版本号]
  */
-public class BaiZhangtang implements IDress{
+public class BaiZhantang implements IDress {
 
     /**
      * 穿好衣服

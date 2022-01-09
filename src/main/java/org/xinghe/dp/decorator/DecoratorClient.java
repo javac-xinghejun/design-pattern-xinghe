@@ -10,7 +10,7 @@ package org.xinghe.dp.decorator;
 public class DecoratorClient {
 
     public static void main(String[] args) {
-        IDress baiZhantang = new BaiZhangtang();
+        IDress baiZhantang = new BaiZhantang();
 
         IDress nightWalkingBaiZhantang = new NightWalkingDecorator(baiZhantang);
         nightWalkingBaiZhantang.getDressed();
